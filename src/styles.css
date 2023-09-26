@@ -20,7 +20,7 @@ body {
 
 .site-logo {
   padding: 5px 20px;
-  border-radius: 20px 20px 20px 0px;
+  border-radius: 20px 20px 20px 0;
   background-color: var(--secondary-color);
 }
 
@@ -33,13 +33,24 @@ body {
   /*box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);*/
 }
 
-.bg-theme {
+.bg-primary-theme {
   background-color: var(--primary-color);
   /*color: var(--secondary-color);*/
 }
 
+.bg-secondary-theme {
+  background-color: var(--secondary-color);
+}
 
-input[type = text], input[type = email] {
+.text-primary-theme {
+  color: var(--primary-color);
+}
+
+.text-secondary-theme {
+  color: var(--secondary-color);
+}
+
+input[type = text], input[type = email], textarea {
   height: 60px;
   padding-left: 20px;
   font-size: 13px;
